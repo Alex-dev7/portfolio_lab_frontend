@@ -7,14 +7,16 @@ function Header(props) {
         justifyContent: "space-around",
         border: "3px solid black",
         padding: "8px",
+        marginBottom : "2rem",
         width: "90%",
         margin: "auto",
+        color: "white",
       }; 
 
     return (
         <header>
             <h1>My Portfolio Page</h1>
-            <nav style={navStyle}>
+            <nav  style={navStyle}>
                 <Link to="/">
                     <div>Home</div>
                 </Link>

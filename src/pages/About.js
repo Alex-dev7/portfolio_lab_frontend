@@ -6,6 +6,7 @@ function About(props) {
     const about = useLoaderData()
 
     return <div>
+            <img src={about.headshot} alt={about.name} id='headshot' />
             <h2>{about.name}</h2>
             <h3>{about.email}</h3>
             <p>{about.bio}</p>
